@@ -1,0 +1,10 @@
+*.elf
+*.nacp
+*.npdm
+*.nro
+*.nso
+*.nsp
+build/
+
+.DS_Store
+.vscode/
