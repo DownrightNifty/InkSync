@@ -4,7 +4,11 @@
 *.nro
 *.nso
 *.nsp
+out/
 build/
 
 .DS_Store
 .vscode/
+
+# exclude libstratosphere
+/lib/

@@ -1,3 +1,5 @@
+# https://github.com/switchbrew/switch-examples/blob/master/templates/sysmodule/Makefile
+
 #---------------------------------------------------------------------------------
 .SUFFIXES:
 #---------------------------------------------------------------------------------
@@ -39,7 +41,7 @@ include $(DEVKITPRO)/libnx/switch_rules
 #---------------------------------------------------------------------------------
 TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build
-SOURCES		:=	source
+SOURCES		:=	source source/dmnt
 DATA		:=	data
 INCLUDES	:=	include
 #ROMFS	:=	romfs
